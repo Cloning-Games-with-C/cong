@@ -51,11 +51,11 @@ void check_collision()
     {
         if (ball.x < 0)
         {
-            left_score++;
+            right_score++;
         }
         else if (ball.x >= WIDTH - 10)
         {
-            right_score++;
+            left_score++;
         }
 
         ball.x = WIDTH / 2;
